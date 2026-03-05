@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-03-05_17-33",
+  "agent_zero": {
+    "status": "ok",
+    "version": "M v0.9.8.2-1",
+    "error": null
+  },
+  "memory": {
+    "index.faiss": "30,765 bytes",
+    "knowledge_import.json": "480 bytes",
+    "embedding.json": "89 bytes",
+    "knowledge_entries": 2
+  },
+  "github": {
+    "jeeves-vault": {
+      "updated": "2026-02-26",
+      "visibility": "private"
+    },
+    "server-config": {
+      "updated": "2026-03-05",
+      "visibility": "public"
+    },
+    "titan-m-memory-system": {
+      "updated": "2026-02-22",
+      "visibility": "private"
+    },
+    "jeeves-test": {
+      "updated": "2026-02-16",
+      "visibility": "public"
+    }
+  },
+  "agent_test": {
+    "status": "failed",
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "system": {
+    "agent_zero_container": "Up 51 minutes",
+    "battery": "63% (thresholds: 40-80%)",
+    "disk": "38G/915G used (5%)",
+    "ram": "5.1Gi/46Gi used",
+    "ollama_models": [
+      "qwen3.5:cloud",
+      "kimi-k2-thinking:cloud",
+      "qwen3.5:latest",
+      "kimi-k2.5:cloud"
+    ]
+  }
+}
