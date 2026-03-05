@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-03-06_02-00",
+  "agent_zero": {
+    "status": "ok",
+    "version": "M v0.9.8.2",
+    "error": null
+  },
+  "memory": {
+    "index.faiss": "89,133 bytes",
+    "knowledge_import.json": "480 bytes",
+    "embedding.json": "89 bytes",
+    "knowledge_entries": 2
+  },
+  "github": {
+    "server-config": {
+      "updated": "2026-03-05",
+      "visibility": "public"
+    },
+    "jeeves-vault": {
+      "updated": "2026-03-05",
+      "visibility": "private"
+    },
+    "titan-m-memory-system": {
+      "description": "TITAN-M: Tiered Intelligent Total-recall Agent Network for Memory - Enterprise-Grade AI Memory System for Mission Operations",
+      "name": "titan-m-memory-system",
+      "updatedAt": "2026-02-22T10:30:59Z"
+    },
+    "jeeves-test": {
+      "updated": "2026-02-16",
+      "visibility": "public"
+    }
+  },
+  "agent_test": {
+    "status": "sent",
+    "ctxid": "EKNd0hX5",
+    "http_status": 200
+  },
+  "system": {
+    "agent_zero_container": "Up 47 minutes",
+    "battery": "63% (thresholds: 40-80%)",
+    "disk": "46G/915G used (6%)",
+    "ram": "6.6Gi/46Gi used",
+    "ollama_models": [
+      "qwen3-coder:480b-cloud",
+      "deepseek-v3.1:671b-cloud",
+      "qwen3.5:cloud",
+      "kimi-k2-thinking:cloud",
+      "qwen3.5:latest",
+      "kimi-k2.5:cloud"
+    ]
+  }
+}
