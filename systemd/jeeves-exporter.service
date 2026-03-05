@@ -1,0 +1,18 @@
+[Unit]
+Description=Jeeves & OpenClaw Prometheus Exporter
+After=network.target openclaw-gateway.service ollama.service
+Wants=openclaw-gateway.service
+
+[Service]
+Type=simple
+User=josh
+Environment=HOME=/home/josh
+Environment=PATH=/home/josh/.npm-global/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=/usr/bin/python3 /home/josh/agent-zero-data/usr/workdir/docker-monitoring/monitoring/jeeves_exporter.py
+Restart=on-failure
+RestartSec=10
+StandardOutput=append:/home/josh/nightly-agent/logs/jeeves-exporter.log
+StandardError=append:/home/josh/nightly-agent/logs/jeeves-exporter.log
+
+[Install]
+WantedBy=multi-user.target

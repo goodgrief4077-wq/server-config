@@ -1,0 +1,19 @@
+[Unit]
+Description=OpenClaw Gateway
+After=network.target ollama.service
+Wants=ollama.service
+
+[Service]
+Type=simple
+User=josh
+Environment=PATH=/home/josh/.npm-global/bin:/usr/local/bin:/usr/bin:/bin
+Environment=HOME=/home/josh
+WorkingDirectory=/home/josh
+ExecStart=/home/josh/.npm-global/bin/openclaw gateway run --port 18789
+Restart=on-failure
+RestartSec=10
+StandardOutput=append:/home/josh/.openclaw/logs/gateway.log
+StandardError=append:/home/josh/.openclaw/logs/gateway.log
+
+[Install]
+WantedBy=multi-user.target

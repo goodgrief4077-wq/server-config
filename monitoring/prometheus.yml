@@ -1,0 +1,38 @@
+global:
+  scrape_interval: 30s
+  evaluation_interval: 30s
+  external_labels:
+    instance: 'josh-thinkpad-server'
+    environment: 'production'
+
+scrape_configs:
+  # ── Prometheus self-monitoring ──────────────────────────────────────
+  - job_name: "prometheus"
+    static_configs:
+      - targets: ["localhost:9090"]
+
+  # ── Docker container metrics (cAdvisor) ────────────────────────────
+  - job_name: "cadvisor"
+    static_configs:
+      - targets: ["cadvisor:8080"]
+
+  # ── Titan-M federated Prometheus (pulls titan_* metrics from titan-prometheus) ──
+  # titan-api exposes JSON metrics at /api/v1/system/metrics (not Prometheus format)
+  # titan-prometheus scrapes titan-api internally and federates proper metrics here
+  - job_name: "titan-prometheus-federate"
+    honor_labels: true
+    metrics_path: "/federate"
+    params:
+      match[]:
+        - '{__name__=~"titan_.*"}'
+        - '{__name__=~"process_.*"}'
+        - '{job=~"titan.*"}'
+    static_configs:
+      - targets: ["172.17.0.1:9091"]
+
+  # ── Jeeves (Agent Zero) + OpenClaw + Ollama exporter ───────────────
+  - job_name: "jeeves"
+    static_configs:
+      - targets: ["172.17.0.1:9401"]
+    metrics_path: "/metrics"
+    scrape_timeout: 15s
