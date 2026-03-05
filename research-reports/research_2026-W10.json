@@ -1,0 +1,252 @@
+{
+  "week": "2026-W10",
+  "generated": "2026-03-05T17:51:38.618376",
+  "total_papers": 20,
+  "sources": {
+    "arxiv": 16,
+    "semantic_scholar": 3,
+    "nsf_gov": 0,
+    "darpa": 1,
+    "nist": 0
+  },
+  "synthesis": {
+    "status": "ok",
+    "ctxid": "ruCknBd0",
+    "prompt_length": 10968
+  },
+  "papers": [
+    {
+      "title": "Gravitational confinement of ghost scalar fields in neutron stars",
+      "authors": [
+        "Argelia Bernal",
+        "V\u00edctor Jaramillo",
+        "N\u00e9stor A. Montiel-Hern\u00e1ndez"
+      ],
+      "summary": "We investigate the effects, stability, and nonlinear dynamics of ghost scalar matter modeled as a field with a negative kinetic term confined within the cores of neutron stars. To this end, we analyze static configurations of the coupled Einstein-Euler-(ghost, complex) Klein-Gordon system and then w",
+      "url": "http://arxiv.org/abs/2603.04400v1",
+      "updated": "2026-03-04",
+      "source": "arxiv"
+    },
+    {
+      "title": "HyQBench: A Benchmark Suite for Hybrid CV-DV Quantum Computing",
+      "authors": [
+        "Shubdeep Mohapatra",
+        "Yuan Liu",
+        "Eddy Z. Zhang"
+      ],
+      "summary": "Hybrid continuous-variable (CV)-discrete-variable (DV) quantum systems present a promising direction for quantum computing by combining the high dimensional encoding capabilities of qumodes with the control offered by DV qubits on the coupled qumodes. There have been exciting recent progresses on hy",
+      "url": "http://arxiv.org/abs/2603.04398v1",
+      "updated": "2026-03-04",
+      "source": "arxiv"
+    },
+    {
+      "title": "The Open Molecules 2025 (OMol25) Dataset, Evaluations, and Models",
+      "authors": [
+        "Daniel S. Levine",
+        "Muhammed Shuaibi",
+        "Evan Walter Clark Spotte-Smith"
+      ],
+      "summary": "Machine learning (ML) models hold the promise of transforming atomic simulations by delivering quantum chemical accuracy at a fraction of the computational cost. Realization of this potential would enable high-throughout, high-accuracy molecular screening campaigns to explore vast regions of chemica",
+      "url": "http://arxiv.org/abs/2505.08762v2",
+      "updated": "2026-03-04",
+      "source": "arxiv"
+    },
+    {
+      "title": "Evidence for Multimodal Superfluidity of Neutrons",
+      "authors": [
+        "Yuan-Zhuo Ma",
+        "Georgios Palkanoglou",
+        "Joseph Carlson"
+      ],
+      "summary": "We present theoretical and experimental evidence for a new phase of matter in neutron-rich systems that we call multimodal superfluidity. Using ab initio lattice calculations, we show that the condensate consists of coexisting s-wave pairs, p-wave pairs in entangled double pair combinations, and qua",
+      "url": "http://arxiv.org/abs/2602.17611v2",
+      "updated": "2026-03-04",
+      "source": "arxiv"
+    },
+    {
+      "title": "Statistical inference for Levy-driven graph supOU processes: From short- to long-memory in high-dimensional time series",
+      "authors": [
+        "Shreya Mehta",
+        "Almut E. D. Veraart"
+      ],
+      "summary": "This article introduces Levy-driven graph supOU processes, a parsimonious parametrisation for high-dimensional time series in which dependence between components is governed by a graph structure. Specifically, the model bridges short- and long-range dependence within a single parametric family while",
+      "url": "http://arxiv.org/abs/2502.08838v2",
+      "updated": "2026-03-04",
+      "source": "arxiv"
+    },
+    {
+      "title": "A Dual-Helix Governance Approach Towards Reliable Agentic AI for WebGIS Development",
+      "authors": [
+        " Boyuan",
+        " Guan",
+        "Wencong Cui"
+      ],
+      "summary": "WebGIS development requires rigor, yet agentic AI frequently fails due to five large language model (LLM) limitations: context constraints, cross-session forgetting, stochasticity, instruction failure, and adaptation rigidity. We propose a dual-helix governance framework reframing these challenges a",
+      "url": "http://arxiv.org/abs/2603.04390v1",
+      "updated": "2026-03-04",
+      "source": "arxiv"
+    },
+    {
+      "title": "AgentIR: Reasoning-Aware Retrival for Deep Research Agents",
+      "authors": [
+        "Zijian Chen",
+        "Xueguang Ma",
+        "Shengyao Zhuang"
+      ],
+      "summary": "Deep Research agents are rapidly emerging as primary consumers of modern retrieval systems. Unlike human users who issue and refine queries without documenting their intermediate thought processes, Deep Research agents generate explicit natural language reasoning before each search call, revealing r",
+      "url": "http://arxiv.org/abs/2603.04384v1",
+      "updated": "2026-03-04",
+      "source": "arxiv"
+    },
+    {
+      "title": "Composition-Grounded Data Synthesis for Visual Reasoning",
+      "authors": [
+        "Xinyi Gu",
+        "Jiayuan Mao",
+        "Zhang-Wei Hong"
+      ],
+      "summary": "Pretrained multi-modal large language models (MLLMs) demonstrate strong performance on diverse multimodal tasks, but remain limited in reasoning capabilities for domains where annotations are difficult to collect. In this work, we focus on artificial image domains such as charts, rendered documents,",
+      "url": "http://arxiv.org/abs/2510.15040v2",
+      "updated": "2026-03-04",
+      "source": "arxiv"
+    },
+    {
+      "title": "The Open Polymers 2026 (OPoly26) Dataset and Evaluations",
+      "authors": [
+        "Daniel S. Levine",
+        "Nicholas Liesen",
+        "Lauren Chua"
+      ],
+      "summary": "Polymers-macromolecular systems composed of repeating chemical units-constitute the molecular foundation of living organisms, while their synthetic counterparts drive transformative advances across medicine, consumer products, and energy technologies. While machine learning (ML) models have been tra",
+      "url": "http://arxiv.org/abs/2512.23117v2",
+      "updated": "2026-03-04",
+      "source": "arxiv"
+    },
+    {
+      "title": "UMA: A Family of Universal Models for Atoms",
+      "authors": [
+        "Brandon M. Wood",
+        "Misko Dzamba",
+        "Xiang Fu"
+      ],
+      "summary": "The ability to quickly and accurately compute properties from atomic simulations is critical for advancing a large number of applications in chemistry and materials science including drug discovery, energy storage, and semiconductor manufacturing. To address this need, Meta FAIR presents a family of",
+      "url": "http://arxiv.org/abs/2506.23971v2",
+      "updated": "2026-03-04",
+      "source": "arxiv"
+    },
+    {
+      "title": "SELDON: Supernova Explosions Learned by Deep ODE Networks",
+      "authors": [
+        "Jiezhong Wu",
+        "Jack O'Brien",
+        "Jennifer Li"
+      ],
+      "summary": "The discovery rate of optical transients will explode to 10 million public alerts per night once the Vera C. Rubin Observatory's Legacy Survey of Space and Time comes online, overwhelming the traditional physics-based inference pipelines. A continuous-time forecasting AI model is of interest because",
+      "url": "http://arxiv.org/abs/2603.04392v1",
+      "updated": "2026-03-04",
+      "source": "arxiv"
+    },
+    {
+      "title": "Robustness of Agentic AI Systems via Adversarially-Aligned Jacobian Regularization",
+      "authors": [
+        "Furkan Mumcu",
+        "Yasin Yilmaz"
+      ],
+      "summary": "As Large Language Models (LLMs) transition into autonomous multi-agent ecosystems, robust minimax training becomes essential yet remains prone to instability when highly non-linear policies induce extreme local curvature in the inner maximization. Standard remedies that enforce global Jacobian bound",
+      "url": "http://arxiv.org/abs/2603.04378v1",
+      "updated": "2026-03-04",
+      "source": "arxiv"
+    },
+    {
+      "title": "$\u03c4$-Knowledge: Evaluating Conversational Agents over Unstructured Knowledge",
+      "authors": [
+        "Quan Shi",
+        "Alexandra Zytek",
+        "Pedram Razavi"
+      ],
+      "summary": "Conversational agents are increasingly deployed in knowledge-intensive settings, where correct behavior depends on retrieving and applying domain-specific knowledge from large, proprietary, and unstructured corpora during live interactions with users. Yet most existing benchmarks evaluate retrieval ",
+      "url": "http://arxiv.org/abs/2603.04370v1",
+      "updated": "2026-03-04",
+      "source": "arxiv"
+    },
+    {
+      "title": "Detecting AI-Generated Essays in Writing Assessment: Responsible Use and Generalizability Across LLMs",
+      "authors": [
+        "Jiangang Hao"
+      ],
+      "summary": "Writing is a foundational literacy skill that underpins effective communication, fosters critical thinking, facilitates learning across disciplines, and enables individuals to organize and articulate complex ideas. Consequently, writing assessment plays a vital role in evaluating language proficienc",
+      "url": "http://arxiv.org/abs/2603.02353v2",
+      "updated": "2026-03-04",
+      "source": "arxiv"
+    },
+    {
+      "title": "The Gaussian Wave for Graphs of Finite Cone Type",
+      "authors": [
+        "Amir Dembo",
+        "Theo McKenzie"
+      ],
+      "summary": "We show that for any infinite tree of finite cone type satisfying a mild expansion condition, the only typical process on its vertices with covariance induced by the Green's function is the Gaussian wave. This generalizes a result of Backhausz and Szegedy, who proved this for the infinite regular tr",
+      "url": "http://arxiv.org/abs/2603.04386v1",
+      "updated": "2026-03-04",
+      "source": "arxiv"
+    },
+    {
+      "title": "Helios: Real Real-Time Long Video Generation Model",
+      "authors": [
+        "Shenghai Yuan",
+        "Yuanyang Yin",
+        "Zongjian Li"
+      ],
+      "summary": "We introduce Helios, the first 14B video generation model that runs at 19.5 FPS on a single NVIDIA H100 GPU and supports minute-scale generation while matching the quality of a strong baseline. We make breakthroughs along three key dimensions: (1) robustness to long-video drifting without commonly u",
+      "url": "http://arxiv.org/abs/2603.04379v1",
+      "updated": "2026-03-04",
+      "source": "arxiv"
+    },
+    {
+      "title": "WebEvolver: Enhancing Web Agent Self-Improvement with Coevolving World Model",
+      "authors": [
+        "Tianqing Fang",
+        "Hongming Zhang",
+        "Zhisong Zhang"
+      ],
+      "summary": "Agent self-improvement, where the backbone Large Language Model (LLM) of the agent are trained on trajectories sampled autonomously based on their own policies, has emerged as a promising approach for enhancing performance. Recent advancements, particularly in web environments, face a critical limit",
+      "url": "https://www.semanticscholar.org/paper/076f059aa724619ad346503623c5ee57d4625c9d",
+      "updated": "2025-04-23",
+      "source": "semantic_scholar"
+    },
+    {
+      "title": "Application of Self-Supervised Autonomous Agent Framework With Growing Scheme for Digital Transformation of Elder/Existed Well Potentials Discovery",
+      "authors": [
+        "Hongzhi Chen",
+        "Q. Zhao",
+        "W. Lu"
+      ],
+      "summary": "\n \n \n The manuscript proposes an agent framework for elder (existed) well re-assessment. Through the allied application with different generative artificial intelligence (AIGC) models, the self-supervised feedback capability of the framework with a growing scheme, continuously stimulates the reasoni",
+      "url": "https://www.semanticscholar.org/paper/a0e2fd1fdbe472f0826e2f9923007cdb6c533677",
+      "updated": "2025-02-17",
+      "source": "semantic_scholar"
+    },
+    {
+      "title": "OS-Copilot: Towards Generalist Computer Agents with Self-Improvement",
+      "authors": [
+        "Zhiyong Wu",
+        "Chengcheng Han",
+        "Zichen Ding"
+      ],
+      "summary": "Autonomous interaction with the computer has been a longstanding challenge with great potential, and the recent proliferation of large language models (LLMs) has markedly accelerated progress in building digital agents. However, most of these agents are designed to interact with a narrow domain, suc",
+      "url": "https://www.semanticscholar.org/paper/8acdc5c7cb5913dab1ceed71c4750838f5cd8cca",
+      "updated": "2024-02-12",
+      "source": "semantic_scholar"
+    },
+    {
+      "title": "DARPA AI Forward Program",
+      "authors": [
+        "DARPA"
+      ],
+      "summary": "AI Forward is DARPA\u00e2\u0080\u0099s initiative to explore new directions for artificial intelligence (AI) research that will result in trustworthy systems for national security missions. \" /> AI Forward | DARPA <link rel=\"stylesheet\" media=\"all\" href=\"/sites/default/files/css/css_4egkqVM-csgyuBG3130qIGb2dhNnYClOEyih4N8w9q8.css?delta=0&amp;language=en&amp;theme=darpa_uswds&amp;include=eJx",
+      "url": "https://www.darpa.mil/research/programs/ai-forward",
+      "updated": "2026-03-05",
+      "source": "darpa"
+    }
+  ]
+}
