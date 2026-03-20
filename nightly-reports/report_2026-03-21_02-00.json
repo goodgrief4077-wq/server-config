@@ -1,0 +1,69 @@
+{
+  "timestamp": "2026-03-21_02-00",
+  "agent_zero": {
+    "status": "ok",
+    "version": "M v0.9.8.2",
+    "error": null
+  },
+  "memory": {
+    "index.faiss": "271,917 bytes",
+    "knowledge_import.json": "480 bytes",
+    "embedding.json": "89 bytes",
+    "knowledge_entries": 2
+  },
+  "github": {
+    "server-config": {
+      "updated": "2026-03-19",
+      "visibility": "public"
+    },
+    "obsidian-vault": {
+      "updated": "2026-03-11",
+      "visibility": "private"
+    },
+    "gally-vault": {
+      "updated": "2026-03-07",
+      "visibility": "private"
+    },
+    "jeeves-test": {
+      "updated": "2026-03-07",
+      "visibility": "public"
+    },
+    "jeeves-vault": {
+      "updated": "2026-03-07",
+      "visibility": "private"
+    },
+    "ywamaiimyeosu-website": {
+      "updated": "2026-03-06",
+      "visibility": "public"
+    },
+    "titan-m-memory-system": {
+      "description": "TITAN-M: Tiered Intelligent Total-recall Agent Network for Memory - Enterprise-Grade AI Memory System for Mission Operations",
+      "name": "titan-m-memory-system",
+      "updatedAt": "2026-03-05T18:10:17Z"
+    },
+    "server-config-dirty": "?? .opencode/"
+  },
+  "agent_test": {
+    "status": "sent",
+    "ctxid": "A61c2V4a",
+    "http_status": 200
+  },
+  "system": {
+    "agent_zero_container": "Up 15 hours",
+    "battery": "63% (thresholds: 40-80%)",
+    "disk": "113G/915G used (13%)",
+    "ram": "6.9Gi/46Gi used",
+    "ollama_models": [
+      "nemotron-3-super:cloud",
+      "lfm2.5-thinking:latest",
+      "nomic-embed-text:latest",
+      "llama3.2:latest",
+      "minimax-m2.5:cloud",
+      "qwen3-coder:480b-cloud",
+      "qwen3.5:cloud",
+      "kimi-k2-thinking:cloud",
+      "qwen3.5:latest",
+      "kimi-k2.5:cloud"
+    ]
+  }
+}
