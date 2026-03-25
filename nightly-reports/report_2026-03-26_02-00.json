@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-03-26_02-00",
+  "agent_zero": {
+    "status": "unreachable",
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "memory": {
+    "index.faiss": "missing",
+    "knowledge_import.json": "missing",
+    "embedding.json": "missing"
+  },
+  "github": {
+    "titan-m-memory-system": {
+      "description": "TITAN-M: Tiered Intelligent Total-recall Agent Network for Memory - Enterprise-Grade AI Memory System for Mission Operations",
+      "name": "titan-m-memory-system",
+      "updatedAt": "2026-03-25T15:34:22Z"
+    },
+    "jeeves-vault": {
+      "updated": "2026-03-25",
+      "visibility": "private"
+    },
+    "gally-vault": {
+      "updated": "2026-03-25",
+      "visibility": "private"
+    },
+    "obsidian-vault": {
+      "updated": "2026-03-23",
+      "visibility": "private"
+    },
+    "yt-autopilot": {
+      "updated": "2026-03-25",
+      "visibility": "private"
+    },
+    "server-config": {
+      "updated": "2026-03-24",
+      "visibility": "public"
+    },
+    "langchain-brainstorm-service": {
+      "updated": "2026-03-23",
+      "visibility": "private"
+    },
+    "CLI-Anything": {
+      "updated": "2026-03-24",
+      "visibility": "public"
+    },
+    "jeeves-skills": {
+      "updated": "2026-03-23",
+      "visibility": "private"
+    },
+    "rocky-vault": {
+      "updated": "2026-03-23",
+      "visibility": "private"
+    },
+    "server-config-dirty": "M DAILY-SUMMARY.md\n M openclaw/models.json\n M openclaw/openclaw.json\n?? .opencode/"
+  },
+  "agent_test": {
+    "status": "failed",
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "system": {
+    "agent_zero_container": "not running",
+    "battery": "63% (thresholds: 40-80%)",
+    "disk": "156G/915G used (18%)",
+    "ram": "10Gi/46Gi used",
+    "ollama_models": [
+      "minimax-m2.7:cloud",
+      "nemotron-3-super:cloud",
+      "lfm2.5-thinking:latest",
+      "nomic-embed-text:latest",
+      "llama3.2:latest",
+      "minimax-m2.5:cloud",
+      "qwen3-coder:480b-cloud",
+      "qwen3.5:cloud",
+      "kimi-k2-thinking:cloud",
+      "qwen3.5:latest",
+      "kimi-k2.5:cloud"
+    ]
+  }
+}
