@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-03-30_02-00",
+  "agent_zero": {
+    "status": "unreachable",
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "memory": {
+    "index.faiss": "missing",
+    "knowledge_import.json": "missing",
+    "embedding.json": "missing"
+  },
+  "github": {
+    "hermes-vault": {
+      "updated": "2026-03-28",
+      "visibility": "private"
+    },
+    "server-config": {
+      "updated": "2026-03-28",
+      "visibility": "public"
+    },
+    "jeeves-vault": {
+      "updated": "2026-03-28",
+      "visibility": "private"
+    },
+    "jeeves-skills": {
+      "updated": "2026-03-27",
+      "visibility": "private"
+    },
+    "obsidian-vault": {
+      "updated": "2026-03-26",
+      "visibility": "private"
+    },
+    "victory-ai-workspace": {
+      "updated": "2026-03-26",
+      "visibility": "public"
+    },
+    "victory-ai": {
+      "updated": "2026-03-25",
+      "visibility": "public"
+    },
+    "titan-m-memory-system": {
+      "description": "TITAN-M: Tiered Intelligent Total-recall Agent Network for Memory - Enterprise-Grade AI Memory System for Mission Operations",
+      "name": "titan-m-memory-system",
+      "updatedAt": "2026-03-25T23:22:47Z"
+    },
+    "gally-vault": {
+      "updated": "2026-03-25",
+      "visibility": "private"
+    },
+    "yt-autopilot": {
+      "updated": "2026-03-25",
+      "visibility": "private"
+    },
+    "server-config-dirty": "M DAILY-SUMMARY.md\n M openclaw/models.json\n M openclaw/openclaw.json\n?? .opencode/"
+  },
+  "agent_test": {
+    "status": "failed",
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "system": {
+    "agent_zero_container": "not running",
+    "battery": "63% (thresholds: 40-80%)",
+    "disk": "183G/915G used (22%)",
+    "ram": "10Gi/46Gi used",
+    "ollama_models": [
+      "qwen3-coder:480b-cloud",
+      "minimax-m2.7:cloud",
+      "nemotron-3-super:cloud",
+      "lfm2.5-thinking:latest",
+      "nomic-embed-text:latest",
+      "llama3.2:latest",
+      "minimax-m2.5:cloud",
+      "qwen3.5:cloud",
+      "kimi-k2-thinking:cloud",
+      "qwen3.5:latest",
+      "kimi-k2.5:cloud"
+    ]
+  }
+}
