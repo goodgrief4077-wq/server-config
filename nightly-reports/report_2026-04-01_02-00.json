@@ -1,0 +1,78 @@
+{
+  "timestamp": "2026-04-01_02-00",
+  "agent_zero": {
+    "status": "unreachable",
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "memory": {
+    "index.faiss": "missing",
+    "knowledge_import.json": "missing",
+    "embedding.json": "missing"
+  },
+  "github": {
+    "server-config": {
+      "updated": "2026-03-31",
+      "visibility": "public"
+    },
+    "dotfiles": {
+      "updated": "2026-03-31",
+      "visibility": "private"
+    },
+    "titan-m-memory-system": {
+      "description": "TITAN-M: Tiered Intelligent Total-recall Agent Network for Memory - Enterprise-Grade AI Memory System for Mission Operations",
+      "name": "titan-m-memory-system",
+      "updatedAt": "2026-03-31T10:18:53Z"
+    },
+    "jeeves-vault": {
+      "updated": "2026-03-31",
+      "visibility": "private"
+    },
+    "yt-autopilot": {
+      "updated": "2026-03-31",
+      "visibility": "private"
+    },
+    "roadmaps-sh": {
+      "updated": "2026-03-31",
+      "visibility": "public"
+    },
+    "obsidian-vault": {
+      "updated": "2026-03-26",
+      "visibility": "private"
+    },
+    "hermes-vault": {
+      "updated": "2026-03-30",
+      "visibility": "private"
+    },
+    "free-classics-library": {
+      "updated": "2026-03-30",
+      "visibility": "public"
+    },
+    "10-books-self-taught-geniuses": {
+      "updated": "2026-03-30",
+      "visibility": "public"
+    }
+  },
+  "agent_test": {
+    "status": "failed",
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "system": {
+    "agent_zero_container": "not running",
+    "battery": "63% (thresholds: 40-80%)",
+    "disk": "189G/915G used (22%)",
+    "ram": "11Gi/46Gi used",
+    "ollama_models": [
+      "qwen3-coder:480b-cloud",
+      "minimax-m2.7:cloud",
+      "nemotron-3-super:cloud",
+      "lfm2.5-thinking:latest",
+      "nomic-embed-text:latest",
+      "llama3.2:latest",
+      "minimax-m2.5:cloud",
+      "qwen3.5:cloud",
+      "kimi-k2-thinking:cloud",
+      "qwen3.5:latest",
+      "kimi-k2.5:cloud"
+    ]
+  }
+}
